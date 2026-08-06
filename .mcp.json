@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zetesis": {
+      "type": "http",
+      "url": "https://api.zetesis.science/mcp"
+    }
+  }
+}

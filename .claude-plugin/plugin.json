@@ -1,0 +1,24 @@
+{
+  "name": "zetesis",
+  "displayName": "Zetesis",
+  "version": "0.1.0",
+  "description": "Ground scientific claims in real, dated, citable evidence. Retrieves primary literature, trial records and filings by hard id, grades how well a claim is supported, and can evaluate a claim as it stood in an earlier year.",
+  "author": {
+    "name": "Zetesis",
+    "url": "https://api.zetesis.science"
+  },
+  "homepage": "https://api.zetesis.science",
+  "repository": "https://github.com/reutavidan/zetesis-plugin",
+  "license": "MIT",
+  "keywords": [
+    "science",
+    "research",
+    "evidence",
+    "citations",
+    "literature",
+    "clinical-trials",
+    "biomedical",
+    "fact-checking",
+    "due-diligence"
+  ]
+}
