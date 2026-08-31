@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "zetesis",
+  "description": "Zetesis: scientific claims grounded in dated, retrieved evidence.",
+  "owner": {
+    "name": "Zetesis",
+    "email": "hello@zetesis.science"
+  },
+  "plugins": [
+    {
+      "name": "zetesis",
+      "description": "Ground scientific claims in real, dated, citable evidence. Retrieves primary literature, trial records and filings by hard id (PMID, DOI, NCT, grant, filing), supplies the grading rubric, and can evaluate a claim as it stood in an earlier year so it is judged on what was knowable at the time.",
+      "author": {
+        "name": "Zetesis",
+        "email": "hello@zetesis.science"
+      },
+      "category": "research",
+      "source": "./",
+      "homepage": "https://zetesis.science"
+    }
+  ]
+}
