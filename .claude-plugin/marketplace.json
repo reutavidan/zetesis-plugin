@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "zetesis",
-  "description": "Zetesis: scientific claims grounded in dated, retrieved evidence.",
+  "description": "Zetesis: full scientific due diligence, grounded in dated and retrieved evidence.",
   "owner": {
     "name": "Zetesis",
     "email": "hello@zetesis.science"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "zetesis",
-      "description": "Ground scientific claims in real, dated, citable evidence. Retrieves primary literature, trial records and filings by hard id (PMID, DOI, NCT, grant, filing), supplies the grading rubric, and can evaluate a claim as it stood in an earlier year so it is judged on what was knowable at the time.",
+      "description": "Full scientific due diligence inside your assistant. Routes a claim to its class, then returns the questions a domain reviewer would ask (substrate, methods, cohort, risk-of-bias), the failure patterns that have caught comparable claims before with their named precedents, and dated evidence from Europe PMC, ClinicalTrials.gov, openFDA, NIH RePORTER and SEC EDGAR with a hard identifier on every source. Retrieval can be fenced to a year so a claim is judged on what was knowable then.",
       "author": {
         "name": "Zetesis",
         "email": "hello@zetesis.science"

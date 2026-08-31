@@ -2,7 +2,7 @@
   "name": "zetesis",
   "displayName": "Zetesis",
   "version": "0.1.0",
-  "description": "Ground scientific claims in real, dated, citable evidence. Retrieves primary literature, trial records and filings by hard id, grades how well a claim is supported, and can evaluate a claim as it stood in an earlier year.",
+  "description": "Full scientific due diligence inside your assistant. Routes a claim to its class, then returns the questions a domain reviewer would ask (substrate, methods, cohort, risk-of-bias), the failure patterns that have caught comparable claims before with their named precedents, and dated evidence from Europe PMC, ClinicalTrials.gov, openFDA, NIH RePORTER and SEC EDGAR with a hard identifier on every source. Retrieval can be fenced to a year so a claim is judged on what was knowable then.",
   "author": {
     "name": "Zetesis",
     "url": "https://api.zetesis.science"
@@ -19,6 +19,8 @@
     "clinical-trials",
     "biomedical",
     "fact-checking",
-    "due-diligence"
+    "due-diligence",
+    "peer-review",
+    "reproducibility"
   ]
 }
