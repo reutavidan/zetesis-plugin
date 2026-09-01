@@ -108,4 +108,4 @@ through a model sub-processor, named along with retention terms and hosting regi
 
 ## Licence
 
-MIT. Questions: <hello@zetesis.science>
+MIT. Questions: <avidan.r@zetesis.science>
