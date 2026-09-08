@@ -2,7 +2,7 @@
   "name": "zetesis",
   "displayName": "Zetesis",
   "version": "0.1.0",
-  "description": "Full scientific due diligence inside your assistant. Routes a claim to its class, then returns the questions a domain reviewer would ask (substrate, methods, cohort, risk-of-bias), the failure patterns that have caught comparable claims before with their named precedents, and dated evidence from Europe PMC, ClinicalTrials.gov, openFDA, NIH RePORTER and SEC EDGAR with a hard identifier on every source. Retrieval can be fenced to a year so a claim is judged on what was knowable then.",
+  "description": "Due diligence on a high-dimensional scientific claim, graded dimension by dimension. Covers omics, CRISPR screens, clinical trials, real-world evidence, AI clinical decision support, diagnostics, preclinical models, cell and gene therapy and structural biology. Returns the questions a domain reviewer would ask, the failure patterns that caught comparable claims before, and evidence from Europe PMC, ClinicalTrials.gov, openFDA, NIH RePORTER and SEC EDGAR with a hard identifier on every source, checked against retraction notices. Retrieval can be fenced to a year, so a claim is judged on what was knowable then.",
   "author": {
     "name": "Zetesis",
     "url": "https://zetesis.science"
