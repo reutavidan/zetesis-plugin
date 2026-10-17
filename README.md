@@ -71,14 +71,15 @@ and conclusion have not been altered since signing.
 ## Skills
 
 `evidence-check` is model-invoked: Claude reaches for it when an empirical scientific claim
-needs grounding rather than an answer from memory. The other three read local files, so
-they never fire on their own and are yours to call.
+needs grounding rather than an answer from memory. The other four never fire on their own
+and are yours to call.
 
 | Skill | Use |
 |---|---|
 | `/zetesis:ground` | Check the empirical claims in a document and report which hold, which are thin, and which have no support. |
 | `/zetesis:cite-check` | Check whether each citation actually supports the sentence it is attached to, and flag identifiers that do not resolve. |
 | `/zetesis:as-of` | Reconstruct what the published evidence on a topic contained in a given year. |
+| `/zetesis:chat` | A diligence conversation in the terminal: assess a claim, a paper or a local document, then keep asking follow-ups against the same evidence. On Claude Code on the web it hands you a link to the [Zetesis web chat](https://api.zetesis.science/app) instead. |
 
 ## Why the year fence matters
 

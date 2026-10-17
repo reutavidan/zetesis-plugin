@@ -1,7 +1,7 @@
 {
   "name": "zetesis",
   "displayName": "Zetesis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Due diligence on a high-dimensional scientific claim, graded dimension by dimension. Covers omics, CRISPR screens, clinical trials, real-world evidence, AI clinical decision support, diagnostics, preclinical models, cell and gene therapy and structural biology. Returns the questions a domain reviewer would ask, the failure patterns that caught comparable claims before, and evidence from Europe PMC, ClinicalTrials.gov, openFDA, NIH RePORTER and SEC EDGAR with a hard identifier on every source, checked against retraction notices. Retrieval can be fenced to a year, so a claim is judged on what was knowable then.",
   "author": {
     "name": "Zetesis",
