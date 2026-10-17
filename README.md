@@ -27,6 +27,17 @@ claude --plugin-dir ./zetesis-plugin
 No account, key or token is required. The plugin connects to the hosted server at
 `https://api.zetesis.science/mcp`.
 
+## Chat in the terminal
+
+```bash
+uv tool install zetesis
+zetesis
+```
+
+`zetesis` opens a Zetesis conversation in any terminal, with no Claude or MCP setup. In
+Claude Code, `/zetesis:chat` does the same inside the session. In a browser:
+<https://api.zetesis.science/app>
+
 ## Not using Claude?
 
 Zetesis is a Model Context Protocol server, so the same endpoint works in any MCP client.
@@ -36,6 +47,7 @@ Zetesis is a Model Context Protocol server, so the same endpoint works in any MC
 | **Microsoft Copilot Studio** | Tools → Add a tool → Model Context Protocol → server URL, auth **None** |
 | **ChatGPT** | Settings → Connectors → Developer mode → add `https://api.zetesis.science/mcp` |
 | **Gemini CLI** | `gemini mcp add --transport http zetesis https://api.zetesis.science/mcp` |
+| **Codex** | `codex mcp add zetesis --url https://api.zetesis.science/mcp` |
 
 For Gemini's `settings.json`, use `httpUrl` rather than `url`; the latter is SSE and will
 not connect. Full setup notes: <https://api.zetesis.science/docs>
