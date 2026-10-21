@@ -11,6 +11,8 @@ It can also evaluate a claim **as it stood in an earlier year**, restricting evi
 what existed by then, so a claim is judged on what was knowable at the time rather than on
 how it turned out.
 
+[![Zetesis Scientific Due Diligence MCP server](https://mcprush.com/badge/zetesis-scientific-due-diligence-mcp/card.svg)](https://mcprush.com/to/zetesis-scientific-due-diligence-mcp?ref=badge)
+
 ## Install
 
 ```bash
